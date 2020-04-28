@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
     let potter = document.getElementById("potter");
     let musiker = document.getElementById("musiker");
     let filme = document.getElementById("filme");
+    let ohCancer = document.getElementById("ohCancer");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -67,6 +68,13 @@ window.addEventListener('load', () => {
     + "Star Wars, Findet Nemo, Charlie und die Schokoladenfabrik, Kevin allein zuhaus, Die unendliche geschichte, "
     + "Fifty Shades of Gray, Terminator, The Fast and the Furious, Legomovie, La La Land, Fluch der Karibik, Star Trek, "
     + "E.T. , Jurassic Park, Indiana Jones, Back to the Future, Toy Story, The Greatest Showman, Mary Poppins";
+
+    let ohCancerText = "Alkoholiker, Corona, Kärntner, Penis, Phallus, Schwanz, Cock, Hure, Jungs, Blowjob, BBC, Quarantäne, "
+    + "Youporn, Gay, Cum, Masturbieren, Absturz, Pornhub Premium, Ficken, Laura Wiesinger, Paul Zwitter, Alois Petutschnig, "
+    + "Simon Edl, Lukas Edl, Nikolas Zwitter, Trichter, Sebastian Kurz, Hentai, Analsex, Thorsten Jarz, Jonas Wiesinger, "
+    + "Autoscooter, Möpse, Hurensohn, Gänzer, Selbstbefriedigung, Albert Petutschnig, Verena Wiesinger, Mietzi, Kernöl, "
+    + "Graz, Steinfeld, Wels, Peggau, Smite, Mutzikatzi, Zielpunktfrau, Brüste, Eichelkäse, Gurke, Cassy, Matapiro, "
+    + "JungUndGeil, PaulPenisBig, simonpenis";
     //endregion
 
     lehrer.addEventListener('click', () => {
@@ -165,6 +173,17 @@ window.addEventListener('load', () => {
         } else {
             remove(check(filmeText));
             filme.style.backgroundColor = "#bdc3c7";
+        }
+    });
+
+    ohCancer.addEventListener('click', () => {
+        if(check(ohCancerText) === -1) {
+            value.push(ohCancerText);
+            writeValue();
+            setColour(9);
+        } else {
+            remove(check(ohCancerText));
+            ohCancer.style.backgroundColor = "#bdc3c7";
         }
     });
 
