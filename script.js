@@ -87,137 +87,21 @@ window.addEventListener('load', () => {
     + "Thor, Flash, Shazam, Ant-Man, Batgirl, Captain America, Joker, Robin, X-Men, Hulk, Marvel, DC";
     //endregion
 
-    lehrer.addEventListener('click', () => {
-        if(check(lehrerText) === -1) {
-            value.push(lehrerText);
-            writeValue();
-            setColour(0);
-        } else {
-            remove(check(lehrerText));
-            lehrer.style.backgroundColor = "#bdc3c7";
-        }
-    });
+    let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games, heros];
+    let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText, filmeText, ohCancerText, gamesText, herosText];
 
-    faecher.addEventListener('click', () => {
-        if(check(faecherText) === -1) {
-            value.push(faecherText);
-            writeValue();
-            setColour(1);
-        } else {
-            remove(check(faecherText));
-            faecher.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    politiker.addEventListener('click', () => {
-        if(check(politikerText) === -1) {
-            value.push(politikerText);
-            writeValue();
-            setColour(2);
-        } else {
-            remove(check(politikerText));
-            politiker.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    disneyfilme.addEventListener('click', () => {
-        if(check(disneyfilmeText) === -1) {
-            value.push(disneyfilmeText);
-            writeValue();
-            setColour(3);
-        } else {
-            remove(check(disneyfilmeText));
-            disneyfilme.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    ourClass.addEventListener('click', () => {
-        if(check(ourClassText) === -1) {
-            value.push(ourClassText);
-            writeValue();
-            setColour(4);
-        } else {
-            remove(check(ourClassText));
-            ourClass.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    sex.addEventListener('click', () => {
-        if(check(sexText) === -1) {
-            value.push(sexText);
-            writeValue();
-            setColour(5);
-        } else {
-            remove(check(sexText));
-            sex.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    potter.addEventListener('click', () => {
-        if(check(potterText) === -1) {
-            value.push(potterText);
-            writeValue();
-            setColour(6);
-        } else {
-            remove(check(potterText));
-            potter.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    musiker.addEventListener('click', () => {
-        if(check(musikerText) === -1) {
-            value.push(musikerText);
-            writeValue();
-            setColour(7);
-        } else {
-            remove(check(musikerText));
-            musiker.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    filme.addEventListener('click', () => {
-        if(check(filmeText) === -1) {
-            value.push(filmeText);
-            writeValue();
-            setColour(8);
-        } else {
-            remove(check(filmeText));
-            filme.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    ohCancer.addEventListener('click', () => {
-        if(check(ohCancerText) === -1) {
-            value.push(ohCancerText);
-            writeValue();
-            setColour(9);
-        } else {
-            remove(check(ohCancerText));
-            ohCancer.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    games.addEventListener('click', () => {
-        if(check(gamesText) === -1) {
-            value.push(gamesText);
-            writeValue();
-            setColour(10);
-        } else {
-            remove(check(gamesText));
-            games.style.backgroundColor = "#bdc3c7";
-        }
-    });
-
-    heros.addEventListener('click', () => {
-        if(check(herosText) === -1) {
-            value.push(herosText);
-            writeValue();
-            setColour(11);
-        } else {
-            remove(check(herosText));
-            heros.style.backgroundColor = "#bdc3c7";
-        }
-    });
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', () => {
+            if(check(text[i]) === -1) {
+                value.push(text[i]);
+                writeValue();
+                setColour(i);
+            } else {
+                remove(check(text[i]));
+                buttons[i].style.backgroundColor = "#bdc3c7";
+            }
+        });
+    }
 
     function writeValue() {
 
