@@ -15,7 +15,7 @@ body {
     cursor: pointer;
 }
 #output {
-    width: 25vw;
+    width: 50vw;
     min-height: auto;
     margin-left: 1vw;
 }

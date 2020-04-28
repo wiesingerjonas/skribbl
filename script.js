@@ -14,6 +14,7 @@ window.addEventListener('load', () => {
     let musiker = document.getElementById("musiker");
     let filme = document.getElementById("filme");
     let ohCancer = document.getElementById("ohCancer");
+    let games = document.getElementById("games");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -75,6 +76,11 @@ window.addEventListener('load', () => {
     + "Autoscooter, Möpse, Hurensohn, Gänzer, Selbstbefriedigung, Albert Petutschnig, Verena Wiesinger, Mietzi, Kernöl, "
     + "Graz, Steinfeld, Wels, Peggau, Smite, Mutzikatzi, Zielpunktfrau, Brüste, Eichelkäse, Gurke, Cassy, Matapiro, "
     + "JungUndGeil, PaulPenisBig, simonpenis";
+
+    let gamesText = "Tetris, World of Warcraft, WoW, Grand Theft Auto, GTA, Minecraft, Die Sims, Mario, Pokemon Go, "
+    + "Wii Sports, Portal, Fortnite, Pong, Pac-Man, Goat Simulator, Luigi, Bowser, Prinzessin Peach, Yoshi, Snake, "
+    + "Subway Surfers, Call of Duty, PUBG, FIFA, Rocket League, Candy Crush, Fruit Ninja, Solitaire, Angry Birds, Smite, "
+    + "Animal Crossing";
     //endregion
 
     lehrer.addEventListener('click', () => {
@@ -184,6 +190,17 @@ window.addEventListener('load', () => {
         } else {
             remove(check(ohCancerText));
             ohCancer.style.backgroundColor = "#bdc3c7";
+        }
+    });
+
+    games.addEventListener('click', () => {
+        if(check(gamesText) === -1) {
+            value.push(gamesText);
+            writeValue();
+            setColour(10);
+        } else {
+            remove(check(gamesText));
+            games.style.backgroundColor = "#bdc3c7";
         }
     });
 
