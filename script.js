@@ -12,6 +12,7 @@ window.addEventListener('load', () => {
     let sex = document.getElementById("SEX");
     let potter = document.getElementById("potter");
     let musiker = document.getElementById("musiker");
+    let filme = document.getElementById("filme");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -61,6 +62,11 @@ window.addEventListener('load', () => {
     let musikerText = "The Beatles, AC/DC, The Rolling Stones, ABBA, Queen, Bon Jovi, Led Zeppelin, Pink Floyd, Nirvana, "
     + "Green Day, Bob Dylan, Elvis Presley, Bob Marley, Stevie Wonder, Prince, Michael Jackson, Madonna, John Lennon, "
     + "David Bowie, Elton John, Tina Turner, Guns n' Roses, Udo Jürgens";
+
+    let filmeText = "Avatar, Herr der Ringe, James Bond, Pulp Fiction, Shrek, Titanic, Der weiße Hai, Nachts im Museum, "
+    + "Star Wars, Findet Nemo, Charlie und die Schokoladenfabrik, Kevin allein zuhaus, Die unendliche geschichte, "
+    + "Fifty Shades of Gray, Terminator, The Fast and the Furious, Legomovie, La La Land, Fluch der Karibik, Star Trek, "
+    + "E.T. , Jurassic Park, Indiana Jones, Back to the Future, Toy Story, The Greatest Showman, Mary Poppins";
     //endregion
 
     lehrer.addEventListener('click', () => {
@@ -148,6 +154,17 @@ window.addEventListener('load', () => {
         } else {
             remove(check(musikerText));
             musiker.style.backgroundColor = "#bdc3c7";
+        }
+    });
+
+    filme.addEventListener('click', () => {
+        if(check(filmeText) === -1) {
+            value.push(filmeText);
+            writeValue();
+            setColour(8);
+        } else {
+            remove(check(filmeText));
+            filme.style.backgroundColor = "#bdc3c7";
         }
     });
 
