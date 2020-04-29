@@ -96,8 +96,11 @@ window.addEventListener('load', () => {
     + "Seehund, Strauß, Stachelschwein, Tausenfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
     //endregion
 
-    let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games, heros, animals];
-    let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText, filmeText, ohCancerText, gamesText, herosText, animalsText];
+    let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
+        heros, animals];
+
+    let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
+        filmeText, ohCancerText, gamesText, herosText, animalsText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
@@ -132,9 +135,15 @@ window.addEventListener('load', () => {
 
         let c = container.children;
 
-        console.log(c + "   " + index)
+        console.log(c[index] + "   " + index)
 
-        c[index].style.backgroundColor = colors[index];
+        let colourIndex;
+        if (index >= colors.length) {
+            colourIndex = index%colors.length;
+        } else {
+            colourIndex = index
+        }
+        c[index].style.backgroundColor = colors[colourIndex];
 
     }
 
