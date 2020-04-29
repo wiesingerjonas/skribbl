@@ -1,5 +1,3 @@
-//Please do not read this
-
 window.addEventListener('load', () => {
 
     let value = [];
@@ -16,6 +14,7 @@ window.addEventListener('load', () => {
     let ohCancer = document.getElementById("ohCancer");
     let games = document.getElementById("games");
     let heros = document.getElementById("heros");
+    let animals = document.getElementById("animals");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -31,11 +30,11 @@ window.addEventListener('load', () => {
     + "Franz Rager, Robert Reder, Riccarda Reiter, Birgit Schröder, Barbara Schwaiger, Dietmar Steiner, Martin Sternath, "
     + "Thomas Stütz, Günter Traunmüller, Gert Urschitz, Renate Willmann, Edwin Wingert";
 
-    let faecherText = "Systemtechnik, syt, Geographie und Politische Bildung, ggp, Naturwissenschaften, Chemie, nwc, "
-    + "Informationstechnische Projekte, itp, deutsch, Medientechnik, Medt, Netzwerktechnik, nwt, Religion, "
-    + "Römisch Katholisch, evangelisch, angewandte mathematik, mathematik, am, INSY, Informations Systeme, Englisch, "
-    + "Business Englisch, Geographie, Geschichte, Medienpraxis, Bewegung und Sport, Turnen, Sorftwareentwicklung, SEW, "
-    + "NWP, Physik";
+    let faecherText = "Systemtechnik, SYT, Geographie und Politische Bildung, ggp, Naturwissenschaften, Chemie, nwc, "
+    + "Informationstechnische Projekte, itp, deutsch, Medientechnik, Medt, Netzwerktechnik, NWT, Religion, "
+    + "Römisch Katholisch, Evangelisch, Angewandte Mathematik, Mathematik, am, INSY, Informationssysteme, Englisch, "
+    + "Business English, Geographie, Geschichte, Medienpraxis, Bewegung und Sport, Turnen, Softwareentwicklung, SEW, "
+    + "NWP, Physik, Informatik, Medizintechnik, Elektronik";
 
     let politikerText = "Sebastian Kurz, Alexander Van der Bellen, Werner Kogler, HC Strache, Norbert Hofer, "
     + "Herbert Kickl, Heinz Fischer, Donald Trump, Barack Obama, Boris Johnson, Angela Merkel, Vladimir Putin";
@@ -47,7 +46,7 @@ window.addEventListener('load', () => {
 
     let ourClassText = "Meris Besic, Jonas Dorfinger, Felix Dumfarth, Quirin Ecker, Philipp Edlinger, Sarah Feichtinger, "
     + "Jakob Fitzinger, tobias höfler, Silvio kalinke, Florian Klausner, Simon Knogler, Rosalie Mandel, Adrian Moser, "
-    + "Janina Novy, Jonas Oirer, Daniela Plöchl, Vanessa Primetzhofer, Jakob Ratzenböck, Sebastian Scholl, Lukas Startka, "
+    + "Janina Novy, Jonas Oirer, Daniela Plöchl, Vanessa Primetzhofer, Jakob Ratzenböck, Sebastian Scholl, Lukas Starka, "
     + "Marah Steigersdorfer, Sandy Tang, Kelly Tran, Nina Weissengruber, Jonas Wiesinger";
 
     let sexText = "Sex, Geschlechtsverkehr, Anal, Oral, schwul, lesbisch, Blowjob, gangbang, Kekswichsen, orgasmus, "
@@ -67,7 +66,7 @@ window.addEventListener('load', () => {
     + "David Bowie, Elton John, Tina Turner, Guns n' Roses, Udo Jürgens";
 
     let filmeText = "Avatar, Herr der Ringe, James Bond, Pulp Fiction, Shrek, Titanic, Der weiße Hai, Nachts im Museum, "
-    + "Star Wars, Findet Nemo, Charlie und die Schokoladenfabrik, Kevin allein zuhaus, Die unendliche geschichte, "
+    + "Star Wars, Findet Nemo, Kevin allein zuhaus, Die unendliche geschichte, "
     + "Fifty Shades of Gray, Terminator, The Fast and the Furious, Legomovie, La La Land, Fluch der Karibik, Star Trek, "
     + "E.T. , Jurassic Park, Indiana Jones, Back to the Future, Toy Story, The Greatest Showman, Mary Poppins";
 
@@ -85,10 +84,20 @@ window.addEventListener('load', () => {
 
     let herosText = "Superman, Batman, Spiderman, Ironman, Wolverine, Captain Marvel, Deadpool, Aquaman, Wonder Woman, "
     + "Thor, Flash, Shazam, Ant-Man, Batgirl, Captain America, Joker, Robin, X-Men, Hulk, Marvel, DC";
+
+    let animalsText = "Ameise, Axolotl, Alpaka, Ameisenbär, Aal, Adler, Affe, Bär, Blutegel, Biene, Biber, Boa, "
+    + "Clownfisch, Chamäleon, Dachs, Delfin, Ente, Elch, Eidechse, Eule, Erdmännchen, Eichhörnchen, Esel, Elefant, Frosch, "
+    + "Fliege, Flughund, Frettchen, Falke, Flamingo, Fuchs, Fledermaus, Flusspferd, Faultier, Gans, Goldfisch, Giraffe, "
+    + "Gürteltier, Gazelle, Gottesanbeterin, Gorilla, Gepard, Hai, Huhn, Haubentaucher, Hund, Hamster, Hase, Hirsch, Husk, "
+    + "Hyäne, Igel, Krebs, Käfer, Kakadu, Koala, Kamel, Katze, Känguru, Kaninchen, Krähe, Katta, Krokodil, Leguan, Laus, "
+    + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Paranha, Pelikam"
+    + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
+    + "Seehase, Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
+    + "Seehund, Strauß, Stachelschwein, Tausenfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
     //endregion
 
-    let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games, heros];
-    let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText, filmeText, ohCancerText, gamesText, herosText];
+    let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games, heros, animals];
+    let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText, filmeText, ohCancerText, gamesText, herosText, animalsText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
@@ -140,7 +149,6 @@ window.addEventListener('load', () => {
 
     function remove(index) {
 
-        console.log(index + "   " + value.length);
         for (let i = index; i < value.length; i++) {
             if (i === value.length-1) {
                 value.pop();
