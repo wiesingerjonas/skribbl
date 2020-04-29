@@ -17,6 +17,8 @@ window.addEventListener('load', () => {
     let animals = document.getElementById("animals");
     let brands = document.getElementById("brands");
     let food = document.getElementById("food");
+    let countries = document.getElementById("countries");
+    let cities = document.getElementById("cities");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -107,13 +109,22 @@ window.addEventListener('load', () => {
     + "Pfirsich, Mango, Aubergine, , Karotte, Gurke, Salat, Tomate, Kartoffel, Brokoli, Spargel, Paprika, Lasagne, "
     + "Gulasch, Pizza, Schnitzel, Nudeln, Kaiserschmarren, Kebap, Hamburger, Cheeseburger, Sandwich, Brot, Zuckerl, "
     + "Kuchen, Torte, Cupcake, Muffin, Cookies, Schokolade, Joghurt, Ei, Omlet, Palatschinken, Germknödel, Pasta, Wrap";
+
+    let countriesText = "Österreich, Deutschland, Schweiz, China, USA, Frankreich, Italien, Kanada, Australien, Indien, " +
+        "Mexiko, England, Vereinigtes Königreich, Niederlande, Holland, Griechenland, Polen, Norwegen, Kroatien, Irland, " +
+        "Spanien, Japan, Bosnien";
+
+    let citiesText = "Wels, Linz, Graz, Wien, Salzburg, Klagenfurt, Innsbruck, Berlin, Rom, Paris, London, Barcelona, " +
+        "Amsterdam, Hamburg, München, Madrid, Prag, Budapest, Venedig, Mailand, Stockholm, Istanbul, Sankt Petersburg, " +
+        "New York, New York City, Los Angeles, Chicago, San Francisco, Washington, Las Vegas, Moskau, Rio de Genaro, " +
+        "Honkong, Peking, Tokyo, Sydney";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food];
+        heros, animals, brands, food, countries, cities];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
-        filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText];
+        filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
