@@ -15,6 +15,8 @@ window.addEventListener('load', () => {
     let games = document.getElementById("games");
     let heros = document.getElementById("heros");
     let animals = document.getElementById("animals");
+    let brands = document.getElementById("brands");
+    let food = document.getElementById("food");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -39,7 +41,7 @@ window.addEventListener('load', () => {
     let politikerText = "Sebastian Kurz, Alexander Van der Bellen, Werner Kogler, HC Strache, Norbert Hofer, "
     + "Herbert Kickl, Heinz Fischer, Donald Trump, Barack Obama, Boris Johnson, Angela Merkel, Vladimir Putin";
 
-    let disneyfilmeText = "Schneewittchen und die sieben Zwerge, Pinocchio, Dumbo, Bambi, Cinderella, Alice im Wunderland, "
+    let disneyfilmeText = "Schneewittchen, Pinocchio, Dumbo, Bambi, Cinderella, Alice im Wunderland, "
     + "Peter Pan, Susi und Strolch, Dornröschen, 101 Dalmatiner, Das Dschungelbuch, Aristocats, Robin Hood, Winnie Puuh, "
     + "Arielle, Die Schöne und das Biest, Aladdin, Der König der Löwen, Der Glöckner von Notre Dame, Hercules, Mulan, "
     + "Tarzan, Frozen, Baymax";
@@ -94,13 +96,24 @@ window.addEventListener('load', () => {
     + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
     + "Seehase, Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
     + "Seehund, Strauß, Stachelschwein, Tausenfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
+
+    let brandsText = "Apple, Google, Amazon, Microsoft, Coca-Cola, Samsung, Toyota, Mercedes, McDonald's, Disney, BMW, "
+    + "IBM, intel, Facebook, Cisco, Nike, Louis Vuitton, Oracle, Honda, Chanel, Pepsi, IKEA, UPS, Zara, H&M, Gucci, "
+    + "Pampers, Ford, Hyundai, Gilette, Nescafe, Adobe, Volkswagen, VW, Audi, Allianz, Ebay, Adidas, Starbucks, Porsche, "
+    + "Nissan, HP, Sony, Kellogg's, Siemens, YouTube, Red Bull, Rolex, Netflix, LG, KFC, Subway, Shell, Haribp, Nintendo, "
+    + "Lego, Nivea, Nikon, Canon, Schwarzkopf, Fanta, Sprite, Pringels, Milka, Tesla";
+
+    let foodText = "Suppe, Gemüse, Obst, Früchte, Apfel, Banane, Gurke, Orange, Trauben, Birne, Erdbeere, Melone, "
+    + "Pfirsich, Mango, Aubergine, , Karotte, Gurke, Salat, Tomate, Kartoffel, Brokoli, Spargel, Paprika, Lasagne, "
+    + "Gulasch, Pizza, Schnitzel, Nudeln, Kaiserschmarren, Kebap, Hamburger, Cheeseburger, Sandwich, Brot, Zuckerl, "
+    + "Kuchen, Torte, Cupcake, Muffin, Cookies, Schokolade, Joghurt, Ei, Omlet, Palatschinken, Germknödel, Pasta, Wrap";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals];
+        heros, animals, brands, food];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
-        filmeText, ohCancerText, gamesText, herosText, animalsText];
+        filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
