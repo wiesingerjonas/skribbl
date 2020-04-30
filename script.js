@@ -22,6 +22,7 @@ window.addEventListener('load', () => {
     let alk = document.getElementById("alk");
     let hardware = document.getElementById("hardware");
     let plants = document.getElementById("plants");
+    let religion = document.getElementById("religion");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -132,14 +133,19 @@ window.addEventListener('load', () => {
 
     let plantsText = "Ahorn, Birke, Buchs, Efeu, Apfelbaum, Fichte, Haselnussbaum, Palme, Tanne, Petersilie, Schnittlauch, " +
         "Kresse, Basilikum, Oragen, Rose, Mohn, Gänseblümchen, Wurzel, Baumkrone, Baumstamm, Stamm";
+
+    let religionText = "Atheismus, Ethik, Gott, Religion, Glaube, Engel, Auferstehung, Beichte, Fluch, Gebet, Glaube, Kreuz, " +
+        "Seele, Wunder, Zehn Gebote, Altes Testament, Abendmahl, Apostel, Bibel, Chor, Evangelist, Fegefeuer, Geburt, Herr, " +
+        "Hölle, Israel, Jesus, Joseph, Kreuzigung, Krippe, Liebe, Ostern, Pfarrer, Priester, Synagoge, Weihwasser, Judentum, " +
+        "Christentum, Islam, Hinduismus, Buddhismus, Islam";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk, hardware, plants];
+        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText, plantsText];
+        alkText, hardwareText, plantsText, religionText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
