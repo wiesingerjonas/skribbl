@@ -20,7 +20,8 @@ window.addEventListener('load', () => {
     let countries = document.getElementById("countries");
     let cities = document.getElementById("cities");
     let alk = document.getElementById("alk");
-    //Computerhardware,
+    let hardware = document.getElementById("hardware");
+    //Pflanzen,
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -123,13 +124,19 @@ window.addEventListener('load', () => {
 
     let alkText = "Bier, Wein, Gin, Rum, Tequila, Vodka, Likör, Whiskey, Cocktail, Sex on the Beach, Jägermeister, Klopfer, " +
         "Bacardi, B52, Shot, Stamperl, Weißbier";
+
+    let hardwareText = "Mainboard, Prozessor, RAM, Arbeitsspeicher, Grafikkarte, Monitor, Festplatte, CD, CD-ROM, " +
+        "Kartenleser, Drucker, Laptop, Computer, Lautsprecher, Spannungswandler, Speicherlkarte, USB, USB-Stick, Touchpad, " +
+        "Kopfhörer, Akku, Batterie, Maus, Tastatur, Bluetooth Maus, Leertaste, Enter, Shift, Tastenkombination, Windows, " +
+        "Linux, Mac, Software, Piezo Summer, HDMI, HDMI-Kabel, Klinkenstecker, Touchscreen, Fingerprintsensor";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk];
+        heros, animals, brands, food, countries, cities, alk, hardware];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
-        filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText, alkText];
+        filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
+        alkText, hardwareText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {

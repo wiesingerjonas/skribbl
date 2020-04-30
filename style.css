@@ -2,6 +2,7 @@ body {
     background-color: #f2f2f2;
     font-family: sans-serif;
     justify-content: center;
+    overflow-x: hidden;
 }
 #container {
     display: flex;
