@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
     let cities = document.getElementById("cities");
     let alk = document.getElementById("alk");
     let hardware = document.getElementById("hardware");
-    //Pflanzen,
+    let plants = document.getElementById("plants");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -129,14 +129,17 @@ window.addEventListener('load', () => {
         "Kartenleser, Drucker, Laptop, Computer, Lautsprecher, Spannungswandler, Speicherlkarte, USB, USB-Stick, Touchpad, " +
         "Kopfhörer, Akku, Batterie, Maus, Tastatur, Bluetooth Maus, Leertaste, Enter, Shift, Tastenkombination, Windows, " +
         "Linux, Mac, Software, Piezo Summer, HDMI, HDMI-Kabel, Klinkenstecker, Touchscreen, Fingerprintsensor";
+
+    let plantsText = "Ahorn, Birke, Buchs, Efeu, Apfelbaum, Fichte, Haselnussbaum, Palme, Tanne, Petersilie, Schnittlauch, " +
+        "Kresse, Basilikum, Oragen, Rose, Mohn, Gänseblümchen, Wurzel, Baumkrone, Baumstamm, Stamm";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk, hardware];
+        heros, animals, brands, food, countries, cities, alk, hardware, plants];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText];
+        alkText, hardwareText, plantsText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
