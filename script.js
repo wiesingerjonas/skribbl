@@ -23,6 +23,8 @@ window.addEventListener('load', () => {
     let hardware = document.getElementById("hardware");
     let plants = document.getElementById("plants");
     let religion = document.getElementById("religion");
+    let austria = document.getElementById("austria");
+    let instrumente = document.getElementById("instrumente");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -71,7 +73,7 @@ window.addEventListener('load', () => {
 
     let musikerText = "The Beatles, AC/DC, The Rolling Stones, ABBA, Queen, Bon Jovi, Led Zeppelin, Pink Floyd, Nirvana, "
     + "Green Day, Bob Dylan, Elvis Presley, Bob Marley, Stevie Wonder, Prince, Michael Jackson, Madonna, John Lennon, "
-    + "David Bowie, Elton John, Tina Turner, Guns n' Roses, Udo Jürgens";
+    + "David Bowie, Elton John, Tina Turner, Guns n' Roses, Udo Jürgens, Andreas Gabalier";
 
     let filmeText = "Avatar, Herr der Ringe, James Bond, Pulp Fiction, Shrek, Titanic, Der weiße Hai, Nachts im Museum, "
     + "Star Wars, Findet Nemo, Kevin allein zuhaus, Die unendliche geschichte, "
@@ -100,11 +102,11 @@ window.addEventListener('load', () => {
     + "Hyäne, Igel, Krebs, Käfer, Kakadu, Koala, Kamel, Katze, Känguru, Kaninchen, Krähe, Katta, Krokodil, Leguan, Laus, "
     + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Paranha, Pelikam"
     + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
-    + "Seehase, Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
+    + "Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
     + "Seehund, Strauß, Stachelschwein, Tausenfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
 
     let brandsText = "Apple, Google, Amazon, Microsoft, Coca-Cola, Samsung, Toyota, Mercedes, McDonald's, Disney, BMW, "
-    + "IBM, intel, Facebook, Cisco, Nike, Louis Vuitton, Oracle, Honda, Chanel, Pepsi, IKEA, UPS, Zara, H&M, Gucci, "
+    + "IBM, intel, Facebook, Nike, Louis Vuitton, Oracle, Honda, Chanel, Pepsi, IKEA, UPS, Zara, H&M, Gucci, "
     + "Pampers, Ford, Hyundai, Gilette, Nescafe, Adobe, Volkswagen, VW, Audi, Allianz, Ebay, Adidas, Starbucks, Porsche, "
     + "Nissan, HP, Sony, Kellogg's, Siemens, YouTube, Red Bull, Rolex, Netflix, LG, KFC, Subway, Shell, Haribp, Nintendo, "
     + "Lego, Nivea, Nikon, Canon, Schwarzkopf, Fanta, Sprite, Pringels, Milka, Tesla";
@@ -129,7 +131,7 @@ window.addEventListener('load', () => {
     let hardwareText = "Mainboard, Prozessor, RAM, Arbeitsspeicher, Grafikkarte, Monitor, Festplatte, CD, CD-ROM, " +
         "Kartenleser, Drucker, Laptop, Computer, Lautsprecher, Spannungswandler, Speicherlkarte, USB, USB-Stick, Touchpad, " +
         "Kopfhörer, Akku, Batterie, Maus, Tastatur, Bluetooth Maus, Leertaste, Enter, Shift, Tastenkombination, Windows, " +
-        "Linux, Mac, Software, Piezo Summer, HDMI, HDMI-Kabel, Klinkenstecker, Touchscreen, Fingerprintsensor";
+        "Linux, Mac, Software, Piezo Summer, HDMI, HDMI-Kabel, Klinkenstecker, Touchscreen, Fingerprintsensor, Mikrofon";
 
     let plantsText = "Ahorn, Birke, Buchs, Efeu, Apfelbaum, Fichte, Haselnussbaum, Palme, Tanne, Petersilie, Schnittlauch, " +
         "Kresse, Basilikum, Oragen, Rose, Mohn, Gänseblümchen, Wurzel, Baumkrone, Baumstamm, Stamm";
@@ -137,15 +139,24 @@ window.addEventListener('load', () => {
     let religionText = "Atheismus, Ethik, Gott, Religion, Glaube, Engel, Auferstehung, Beichte, Fluch, Gebet, Glaube, Kreuz, " +
         "Seele, Wunder, Zehn Gebote, Altes Testament, Abendmahl, Apostel, Bibel, Chor, Evangelist, Fegefeuer, Geburt, Herr, " +
         "Hölle, Israel, Jesus, Joseph, Kreuzigung, Krippe, Liebe, Ostern, Pfarrer, Priester, Synagoge, Weihwasser, Judentum, " +
-        "Christentum, Islam, Hinduismus, Buddhismus, Islam";
+        "Christentum, Islam, Hinduismus, Buddhismus, Islam, Kirche";
+
+    let austriaText = "Sachertorte, Mannerwaffeln, Mozartkugel, Debrezina, Kaisersemmel, Wiener Schnitzel, Falco, Mozart, " +
+        "Skifahren, Lederhose, Volksmusik, Schönbrunn, Prater, Stephansdom, Sissi, Krampus, Perchten, FKK, Würstelstand, " +
+        "Kaffehaus, Nikotin, Bier, Hochdeutsch";
+
+    let instrumenteText = "Akkordeon, Balalaika, Bass-Gitarre, Blockflöte, Bongos, Bratsche, Cello, E-Bass, E-Gitarre, " +
+        "Fagott, Geige, Gitarre, Gong, Harfe, Horn, Keyboard, Klavier, Kontrabass, Mund-harmonika, Oboe, Orgel, Panflöte, " +
+        "Pauke, Piccoloflöte, Posaune, Querflöte, Regenmacher, Saxophon, Synthesizer, Tamburin, Triangel, Trompete, Tuba, " +
+        "Vibraphon, Xylophon";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion];
+        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText, plantsText, religionText];
+        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
