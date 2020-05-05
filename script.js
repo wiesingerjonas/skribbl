@@ -25,6 +25,7 @@ window.addEventListener('load', () => {
     let religion = document.getElementById("religion");
     let austria = document.getElementById("austria");
     let instrumente = document.getElementById("instrumente");
+    let youtuber = document.getElementById("youtuber");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -57,7 +58,7 @@ window.addEventListener('load', () => {
     let ourClassText = "Meris Besic, Jonas Dorfinger, Felix Dumfarth, Quirin Ecker, Philipp Edlinger, Sarah Feichtinger, "
     + "Jakob Fitzinger, tobias höfler, Silvio kalinke, Florian Klausner, Simon Knogler, Rosalie Mandel, Adrian Moser, "
     + "Janina Novy, Jonas Oirer, Daniela Plöchl, Vanessa Primetzhofer, Jakob Ratzenböck, Sebastian Scholl, Lukas Starka, "
-    + "Marah Steigersdorfer, Sandy Tang, Kelly Tran, Nina Weissengruber, Jonas Wiesinger";
+    + "Marah Steigersdorfer, Sandy Tang, Kelly Tran, Nina Weissengruber, Jonas Wiesinger, Maximilian Fuchs";
 
     let sexText = "Sex, Geschlechtsverkehr, Anal, Oral, schwul, lesbisch, Blowjob, gangbang, Kekswichsen, orgasmus, "
     + "gruppensex, adamsapfel, affäre, aids, after, anus, titten, brüste, bh, bordell, bumsen, busen, Coitus interruptus, "
@@ -149,14 +150,18 @@ window.addEventListener('load', () => {
         "Fagott, Geige, Gitarre, Gong, Harfe, Horn, Keyboard, Klavier, Kontrabass, Mund-harmonika, Oboe, Orgel, Panflöte, " +
         "Pauke, Piccoloflöte, Posaune, Querflöte, Regenmacher, Saxophon, Synthesizer, Tamburin, Triangel, Trompete, Tuba, " +
         "Vibraphon, Xylophon";
+
+    let youtuberText = "BibisBeautyPalace, Julien Bam, Gronkh, Simon Desue, ConCrafter, Julienco, Dagi Bee, ApeCrime, " +
+        "Paluten, GermanLetsPlay, Freshtorge, Felix von der Laden, Dner, Rewinside, LeFloid, Die Lochis, PewDiePie, " +
+        "Dude Perfect, MrBeast";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente];
+        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente, youtuber];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText];
+        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText, youtuberText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
@@ -190,8 +195,6 @@ window.addEventListener('load', () => {
         let container = document.getElementById("container");
 
         let c = container.children;
-
-        console.log(c[index] + "   " + index)
 
         let colourIndex;
         if (index >= colors.length) {
