@@ -78,8 +78,8 @@ window.addEventListener('load', () => {
 
     let filmeText = "Avatar, Herr der Ringe, James Bond, Pulp Fiction, Shrek, Titanic, Der weiße Hai, Nachts im Museum, "
     + "Star Wars, Findet Nemo, Kevin allein zuhaus, Die unendliche geschichte, "
-    + "Fifty Shades of Gray, Terminator, The Fast and the Furious, Legomovie, La La Land, Fluch der Karibik, Star Trek, "
-    + "E.T. , Jurassic Park, Indiana Jones, Back to the Future, Toy Story, The Greatest Showman, Mary Poppins";
+    + "Fifty Shades of Gray, Terminator, The Fast and the Furious, the LEGO Movie, La La Land, Fluch der Karibik, Star Trek, "
+    + "E.T. , Jurassic Park, Indiana Jones, Back to the Future, Toy Story, The Greatest Showman, Mary Poppins, Rango";
 
     let ohCancerText = "Alkoholiker, Corona, Kärntner, Penis, Phallus, Schwanz, Cock, Hure, Jungs, Blowjob, BBC, Quarantäne, "
     + "Youporn, Gay, Cum, Masturbieren, Absturz, Pornhub Premium, Ficken, Laura Wiesinger, Paul Zwitter, Alois Petutschnig, "
