@@ -26,6 +26,7 @@ window.addEventListener('load', () => {
     let austria = document.getElementById("austria");
     let instrumente = document.getElementById("instrumente");
     let youtuber = document.getElementById("youtuber");
+    let jobs = document.getElementById("jobs");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -52,7 +53,7 @@ window.addEventListener('load', () => {
 
     let disneyfilmeText = "Schneewittchen, Pinocchio, Dumbo, Bambi, Cinderella, Alice im Wunderland, "
     + "Peter Pan, Susi und Strolch, Dornröschen, 101 Dalmatiner, Das Dschungelbuch, Aristocats, Robin Hood, Winnie Puuh, "
-    + "Arielle, Die Schöne und das Biest, Aladdin, Der König der Löwen, Der Glöckner von Notre Dame, Hercules, Mulan, "
+    + "Arielle, Die Schöne und das Biest, Aladdin, Der König der Löwen, Der Glöckner von Notre Dame, Herkules, Mulan, "
     + "Tarzan, Frozen, Baymax";
 
     let ourClassText = "Meris Besic, Jonas Dorfinger, Felix Dumfarth, Quirin Ecker, Philipp Edlinger, Sarah Feichtinger, "
@@ -91,7 +92,7 @@ window.addEventListener('load', () => {
     let gamesText = "Tetris, World of Warcraft, WoW, Grand Theft Auto, GTA, Minecraft, Die Sims, Mario, Pokemon Go, "
     + "Wii Sports, Portal, Fortnite, Pong, Pac-Man, Goat Simulator, Luigi, Bowser, Prinzessin Peach, Yoshi, Snake, "
     + "Subway Surfers, Call of Duty, PUBG, FIFA, Rocket League, Candy Crush, Fruit Ninja, Solitaire, Angry Birds, Smite, "
-    + "Animal Crossing";
+    + "Animal Crossing, Landwirtschafts-Simulator";
 
     let herosText = "Superman, Batman, Spiderman, Ironman, Wolverine, Captain Marvel, Deadpool, Aquaman, Wonder Woman, "
     + "Thor, Flash, Shazam, Ant-Man, Batgirl, Captain America, Joker, Robin, X-Men, Hulk, Marvel, DC";
@@ -109,7 +110,7 @@ window.addEventListener('load', () => {
     let brandsText = "Apple, Google, Amazon, Microsoft, Coca-Cola, Samsung, Toyota, Mercedes, McDonald's, Disney, BMW, "
     + "IBM, intel, Facebook, Nike, Louis Vuitton, Oracle, Honda, Chanel, Pepsi, IKEA, UPS, Zara, H&M, Gucci, "
     + "Pampers, Ford, Hyundai, Gilette, Nescafe, Adobe, Volkswagen, VW, Audi, Allianz, Ebay, Adidas, Starbucks, Porsche, "
-    + "Nissan, HP, Sony, Kellogg's, Siemens, YouTube, Red Bull, Rolex, Netflix, LG, KFC, Subway, Shell, Haribp, Nintendo, "
+    + "Nissan, HP, Sony, Kellogg's, Siemens, YouTube, Red Bull, Rolex, Netflix, LG, KFC, Subway, Shell, Haribo, Nintendo, "
     + "Lego, Nivea, Nikon, Canon, Schwarzkopf, Fanta, Sprite, Pringels, Milka, Tesla";
 
     let foodText = "Suppe, Gemüse, Obst, Früchte, Apfel, Banane, Gurke, Orange, Trauben, Birne, Erdbeere, Melone, "
@@ -154,14 +155,21 @@ window.addEventListener('load', () => {
     let youtuberText = "BibisBeautyPalace, Julien Bam, Gronkh, Simon Desue, ConCrafter, Julienco, Dagi Bee, ApeCrime, " +
         "Paluten, GermanLetsPlay, Freshtorge, Felix von der Laden, Dner, Rewinside, LeFloid, Die Lochis, PewDiePie, " +
         "Dude Perfect, MrBeast";
+
+    let jobsText = "Altenpfleger, Apotheker, Architekt, Astronaut, Autor, Arzt, Bäcker, Bauer, Barkeeper, Chemiker, " +
+        "Chirurg, Clown, Dachdecker, Designer, DJ, Detektiv, Elektriker, Feuerwehrmann, Frisör, Gärtner, Immobilienmakler, Jäger" +
+        "Koch, Landwirt, Lehrer, Lieferant, Logopäde, Make up Artistl, Maler, Masseur, Notarzt, Pferdewirk, Pilot, Polizist, " +
+        "Prostituierter, Rettungssanitäter, Richter, Schauspieler, Taxifahrer, Techniker, Uhrmacher, Verkäufer" +
+        "Webdesigner, Youtuber, Zahnarzt, Zauberer, Zirkusdirektor";
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
-        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente, youtuber];
+        heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente, youtuber,
+        jobs];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText, youtuberText];
+        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText, youtuberText, jobsText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
