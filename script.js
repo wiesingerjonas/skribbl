@@ -56,7 +56,7 @@ window.addEventListener('load', () => {
     + "Arielle, Die Schöne und das Biest, Aladdin, Der König der Löwen, Der Glöckner von Notre Dame, Herkules, Mulan, "
     + "Tarzan, Frozen, Baymax";
 
-    let ourClassText = "Meris Besic, Jonas Dorfinger, Felix Dumfarth, Quirin Ecker, Philipp Edlinger, Sarah Feichtinger, "
+    let ourClassText = "Meris Besic, Jonas Dorfinger, Felix Dumfarth, Carlos Dumfarth, Quirin Ecker, Philipp Edlinger, Sarah Feichtinger, "
     + "Jakob Fitzinger, tobias höfler, Silvio kalinke, Florian Klausner, Simon Knogler, Rosalie Mandel, Adrian Moser, "
     + "Janina Novy, Jonas Oirer, Daniela Plöchl, Vanessa Primetzhofer, Jakob Ratzenböck, Sebastian Scholl, Lukas Starka, "
     + "Marah Steigersdorfer, Sandy Tang, Kelly Tran, Nina Weissengruber, Jonas Wiesinger, Maximilian Fuchs";
@@ -105,7 +105,7 @@ window.addEventListener('load', () => {
     + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Paranha, Pelikam"
     + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
     + "Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
-    + "Seehund, Strauß, Stachelschwein, Tausenfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
+    + "Seehund, Strauß, Stachelschwein, Tausendfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
 
     let brandsText = "Apple, Google, Amazon, Microsoft, Coca-Cola, Samsung, Toyota, Mercedes, McDonald's, Disney, BMW, "
     + "IBM, intel, Facebook, Nike, Louis Vuitton, Oracle, Honda, Chanel, Pepsi, IKEA, UPS, Zara, H&M, Gucci, "
