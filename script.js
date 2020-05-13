@@ -43,7 +43,7 @@ window.addEventListener('load', () => {
     + "Thomas Stütz, Günter Traunmüller, Gert Urschitz, Renate Willmann, Edwin Wingert";
 
     let faecherText = "Systemtechnik, SYT, Geographie und Politische Bildung, ggp, Naturwissenschaften, Chemie, nwc, "
-    + "Informationstechnische Projekte, itp, deutsch, Medientechnik, Medt, Netzwerktechnik, NWT, Religion, "
+    + "itp, deutsch, Medientechnik, Medt, Netzwerktechnik, NWT, Religion, "
     + "Römisch Katholisch, Evangelisch, Angewandte Mathematik, Mathematik, am, INSY, Informationssysteme, Englisch, "
     + "Business English, Geographie, Geschichte, Medienpraxis, Bewegung und Sport, Turnen, Softwareentwicklung, SEW, "
     + "NWP, Physik, Informatik, Medizintechnik, Elektronik";
