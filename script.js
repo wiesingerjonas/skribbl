@@ -102,7 +102,7 @@ window.addEventListener('load', () => {
     + "Fliege, Flughund, Frettchen, Falke, Flamingo, Fuchs, Fledermaus, Flusspferd, Faultier, Gans, Goldfisch, Giraffe, "
     + "Gürteltier, Gazelle, Gottesanbeterin, Gorilla, Gepard, Hai, Huhn, Haubentaucher, Hund, Hamster, Hase, Hirsch, Husk, "
     + "Hyäne, Igel, Krebs, Käfer, Kakadu, Koala, Kamel, Katze, Känguru, Kaninchen, Krähe, Katta, Krokodil, Leguan, Laus, "
-    + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Paranha, Pelikam"
+    + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Piranha, Pelikam"
     + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
     + "Schabe, Spinne, Stinktier, Steinbock, Schwein, Schaf, Schwan, Seepferdchen, Schimpanse, Feuersalamander, "
     + "Seehund, Strauß, Stachelschwein, Tausendfüßer, Taube, Tiger, Uhu, Wal, Ziege, Zebra";
@@ -114,7 +114,7 @@ window.addEventListener('load', () => {
     + "Lego, Nivea, Nikon, Canon, Schwarzkopf, Fanta, Sprite, Pringels, Milka, Tesla";
 
     let foodText = "Suppe, Gemüse, Obst, Früchte, Apfel, Banane, Gurke, Orange, Trauben, Birne, Erdbeere, Melone, "
-    + "Pfirsich, Mango, Aubergine, , Karotte, Gurke, Salat, Tomate, Kartoffel, Brokoli, Spargel, Paprika, Lasagne, "
+    + "Pfirsich, Mango, Aubergine, , Karotte, Gurke, Salat, Tomate, Kartoffel, Brokkoli, Spargel, Paprika, Lasagne, "
     + "Gulasch, Pizza, Schnitzel, Nudeln, Kaiserschmarren, Kebap, Hamburger, Cheeseburger, Sandwich, Brot, Zuckerl, "
     + "Kuchen, Torte, Cupcake, Muffin, Cookies, Schokolade, Joghurt, Ei, Omlet, Palatschinken, Germknödel, Pasta, Wrap";
 
