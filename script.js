@@ -100,7 +100,7 @@ window.addEventListener('load', () => {
     let animalsText = "Ameise, Axolotl, Alpaka, Ameisenbär, Aal, Adler, Affe, Bär, Blutegel, Biene, Biber, Boa, "
     + "Clownfisch, Chamäleon, Dachs, Delfin, Ente, Elch, Eidechse, Eule, Erdmännchen, Eichhörnchen, Esel, Elefant, Frosch, "
     + "Fliege, Flughund, Frettchen, Falke, Flamingo, Fuchs, Fledermaus, Flusspferd, Faultier, Gans, Goldfisch, Giraffe, "
-    + "Gürteltier, Gazelle, Gottesanbeterin, Gorilla, Gepard, Hai, Huhn, Haubentaucher, Hund, Hamster, Hase, Hirsch, Husk, "
+    + "Gürteltier, Gazelle, Gottesanbeterin, Gorilla, Gepard, Hai, Huhn, Haubentaucher, Hund, Hamster, Hase, Hirsch, "
     + "Hyäne, Igel, Krebs, Käfer, Kakadu, Koala, Kamel, Katze, Känguru, Kaninchen, Krähe, Katta, Krokodil, Leguan, Laus, "
     + "Lemming, Lama, Luchs, Löwe, Maus, Meerschweinchen, Nasenbär, Nashorn, Otter, Orang-Utan, Papagei, Piranha, Pelikam"
     + "Pfau, Pferd, Pinguin, Panda, Qualle, Rochen, Ratte, Regenwurm, Rentier, Kuh, Robbe, Schlange, Schildkröte, Specht, "
