@@ -27,6 +27,7 @@ window.addEventListener('load', () => {
     let instrumente = document.getElementById("instrumente");
     let youtuber = document.getElementById("youtuber");
     let jobs = document.getElementById("jobs");
+    let sexy = document.getElementById("sexy");
 
     let colors = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c", "#16a085", "#27ae60",
         "#2980b9", "#8e44ad", "#f39c12", "#d35400", "#c0392b"];
@@ -161,15 +162,27 @@ window.addEventListener('load', () => {
         "Koch, Landwirt, Lehrer, Lieferant, Logopäde, Make up Artistl, Maler, Masseur, Notarzt, Pferdewirk, Pilot, Polizist, " +
         "Prostituierter, Rettungssanitäter, Richter, Schauspieler, Taxifahrer, Techniker, Uhrmacher, Verkäufer" +
         "Webdesigner, Youtuber, Zahnarzt, Zauberer, Zirkusdirektor";
+
+    let sexyText = "Amerika, A so ana bist du,#nohomo,oh sry hob glaubt du bist sexy, rein in die Olga,whoever threw that paper, " +
+        "your mum’s a hoe,he needs some milk,Schwoastoa, Lederbauer, dei gsicht, dei mum is aussenstehend, Penis, How much is the fish?, " +
+        "Github surface, I’m gonna kill u Im not even worried about, oba no flex, Kennsd du YouPorn?, Wonn I die siag donn…hob I an stehen, " +
+        "Auberger?, Your mum’s a prostitute, Sau nice, Per se, Philipp grillt beim Blackout, No group work today, DIE WESTBAHN, " +
+        "da dorfi hot den joke ned, jo zum beispiel, Nashornblashorn, gmahde Wiesinger, jetzt bin i wieder do, " +
+        "huhn und strudel; teams und moodle, die säcke, Mohammed Salim, Es gibt Familien, ko ma do wen kompetenten herstellen?, " +
+        "funfact zum thema geschwulst, OIDA SCHWÖR, samma schowida online, hob i di eh schowida gfressn, DU FUNKST I heas jo, " +
+        "A Opfö, Carli lern mal sparen, Des is scho fost sex würdig, derf i di knoxxi nennen, quastel, wüst mi schön?, " +
+        "schö-freiewoche, foaht a programm, laung hobts nix mehr von mir khopt, HULAPALU, j steht für onas, die was unternehmen, " +
+        "TU wien, Kennst di aus?, Is a Schmäh, pep prep, Banging Bigfoot, Herr Dumfarth, sie sind bestimmt VIEL VIEL VIEL schwerer als ich, " +
+        "und noch im pyjama, wenn ma do ned do is daun is ma ned dabei, Strich Strich Flapp Flapp, Hitler war keine Person, der war ein Bild"
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
         heros, animals, brands, food, countries, cities, alk, hardware, plants, religion, austria, instrumente, youtuber,
-        jobs];
+        jobs, sexy];
 
     let text = [lehrerText, faecherText, politikerText, disneyfilmeText, ourClassText, sexText, potterText, musikerText,
         filmeText, ohCancerText, gamesText, herosText, animalsText, brandsText, foodText, countriesText, citiesText,
-        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText, youtuberText, jobsText];
+        alkText, hardwareText, plantsText, religionText, austriaText, instrumenteText, youtuberText, jobsText, sexyText];
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
