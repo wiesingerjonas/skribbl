@@ -159,7 +159,7 @@ window.addEventListener('load', () => {
 
     let jobsText = "Altenpfleger, Apotheker, Architekt, Astronaut, Autor, Arzt, Bäcker, Bauer, Barkeeper, Chemiker, " +
         "Chirurg, Clown, Dachdecker, Designer, DJ, Detektiv, Elektriker, Feuerwehrmann, Frisör, Gärtner, Immobilienmakler, Jäger" +
-        "Koch, Landwirt, Lehrer, Lieferant, Logopäde, Make up Artistl, Maler, Masseur, Notarzt, Pferdewirk, Pilot, Polizist, " +
+        "Koch, Landwirt, Lehrer, Lieferant, Logopäde, Make up Artistl, Maler, Masseur, Notarzt, Pilot, Polizist, " +
         "Prostituierter, Rettungssanitäter, Richter, Schauspieler, Taxifahrer, Techniker, Uhrmacher, Verkäufer" +
         "Webdesigner, Youtuber, Zahnarzt, Zauberer, Zirkusdirektor";
 
@@ -173,7 +173,12 @@ window.addEventListener('load', () => {
         "A Opfö, Carli lern mal sparen, Des is scho fost sex würdig, derf i di knoxxi nennen, quastel, wüst mi schön?, " +
         "schö-freiewoche, foaht a programm, laung hobts nix mehr von mir khopt, HULAPALU, j steht für onas, die was unternehmen, " +
         "TU wien, Kennst di aus?, Is a Schmäh, pep prep, Banging Bigfoot, Herr Dumfarth, sie sind bestimmt VIEL VIEL VIEL schwerer als ich, " +
-        "und noch im pyjama, wenn ma do ned do is daun is ma ned dabei, Strich Strich Flapp Flapp, Hitler war keine Person, der war ein Bild"
+        "und noch im pyjama, wenn ma do ned do is daun is ma ned dabei, Strich Strich Flapp Flapp, Hitler war keine Person, der war ein Bild, " +
+        "Mr Hands, anonymes Flusspferd, piezo summer, Edelgas, maximal pigmentiert, Fingertipps, Herr I hob gor ned gwusst dass sie so schiach schreiben Edlinger," +
+        "Voice Crack Sepp, Quastl, Frische Luft, Inspektor Scholl, voluminöser Flop, Dinkeldorfinger, Dunkeldorfinger, " +
+        "Dunkelziffer, Jonas Walter Simon Bartholomäus Wiesinger Priesner, Furzinger, a, Hygienebeauftragter, Wirtshauscarli, " +
+        "Wirtshausfranz, Nina Anton Weissengruber, Döner, Schnecke, Christoph Lausecker, Glatzenfranz, Gerhard Höfer, " +
+        "Discorona, Schwuchteldrucker, Furzinger Factory, ea@liwest.at, ea@pornos.at, John Lim Weihnachtskarte, oasch oasch"
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
