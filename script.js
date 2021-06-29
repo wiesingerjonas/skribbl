@@ -168,7 +168,7 @@ window.addEventListener('load', () => {
         "Github surface, I’m gonna kill u Im not even worried about, oba no flex, Kennsd du YouPorn?, Wonn I die siag donn…hob I an stehen, " +
         "Auberger?, Your mum’s a prostitute, Sau nice, Per se, Philipp grillt beim Blackout, No group work today, DIE WESTBAHN, " +
         "da dorfi hot den joke ned, jo zum beispiel, Nashornblashorn, gmahde Wiesinger, jetzt bin i wieder do, " +
-        "huhn und strudel; teams und moodle, die säcke, Mohammed Salim, Es gibt Familien, ko ma do wen kompetenten herstellen?, " +
+        "huhn und strudel, teams und moodle, die säcke, Mohammed Salim, Es gibt Familien, ko ma do wen kompetenten herstellen?, " +
         "funfact zum thema geschwulst, OIDA SCHWÖR, samma schowida online, hob i di eh schowida gfressn, DU FUNKST I heas jo, " +
         "A Opfö, Carli lern mal sparen, Des is scho fost sex würdig, derf i di knoxxi nennen, quastel, wüst mi schön?, " +
         "schö-freiewoche, foaht a programm, laung hobts nix mehr von mir khopt, HULAPALU, j steht für onas, die was unternehmen, " +
@@ -178,7 +178,8 @@ window.addEventListener('load', () => {
         "Voice Crack Sepp, Quastl, Frische Luft, Inspektor Scholl, voluminöser Flop, Dinkeldorfinger, Dunkeldorfinger, " +
         "Dunkelziffer, Jonas Walter Simon Bartholomäus Wiesinger Priesner, Furzinger, a, Hygienebeauftragter, Wirtshauscarli, " +
         "Wirtshausfranz, Nina Anton Weissengruber, Döner, Schnecke, Christoph Lausecker, Glatzenfranz, Gerhard Höfer, " +
-        "Discorona, Schwuchteldrucker, Furzinger Factory, ea@liwest.at, ea@pornos.at, John Lim Weihnachtskarte, oasch oasch"
+        "Discorona, Schwuchteldrucker, Furzinger Factory, ea@liwest.at, ea@pornos.at, John Lim Weihnachtskarte, oasch oasch, die säcke, Leonie, Schwammerltalk," +
+        "Treffpunkt Videowall, watscheln, ohne wenn und aber, in jeder lebenslage"
     //endregion
 
     let buttons = [lehrer, faecher, politiker, disneyfilme, ourClass, sex, potter, musiker, filme, ohCancer, games,
