@@ -158,7 +158,7 @@ window.addEventListener('load', () => {
         "Dude Perfect, MrBeast";
 
     let jobsText = "Altenpfleger, Apotheker, Architekt, Astronaut, Autor, Arzt, Bäcker, Bauer, Barkeeper, Chemiker, " +
-        "Chirurg, Clown, Dachdecker, Designer, DJ, Detektiv, Elektriker, Feuerwehrmann, Frisör, Gärtner, Immobilienmakler, Jäger" +
+        "Chirurg, Clown, Dachdecker, Designer, DJ, Detektiv, Elektriker, Feuerwehrmann, Frisör, Gärtner, Immobilienmakler, Jäger," +
         "Koch, Landwirt, Lehrer, Lieferant, Logopäde, Make up Artistl, Maler, Masseur, Notarzt, Pilot, Polizist, " +
         "Prostituierter, Rettungssanitäter, Richter, Schauspieler, Taxifahrer, Techniker, Uhrmacher, Verkäufer," +
         "Webdesigner, Youtuber, Zahnarzt, Zauberer, Zirkusdirektor";
